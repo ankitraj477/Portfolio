@@ -1,0 +1,1 @@
+$('#text-container').slidedown(1000)
