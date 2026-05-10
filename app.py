@@ -58,5 +58,5 @@ def contact():
             return jsonify({'success': True, 'message': '[Dev] Message received (mail not configured).'})
         return jsonify({'success': False, 'error': 'Failed to send message. Please try again later.'}), 500
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
