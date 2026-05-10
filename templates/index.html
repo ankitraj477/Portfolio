@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ankit Raj — Data Engineer. Building scalable data pipelines, real-time systems, and cloud infrastructure on GCP." />
+  <title>Ankit Raj · Data Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">AR<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#skills"   class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <span class="toggle-track">
+            <span class="toggle-thumb"></span>
+            <i class="fa-solid fa-moon icon-moon"></i>
+            <i class="fa-solid fa-sun  icon-sun"></i>
+          </span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-accent-orb orb-1"></div>
+    <div class="hero-accent-orb orb-2"></div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">
+        <span class="eyebrow-line"></span>
+        Data Engineer · GCP · Python · PySpark
+      </p>
+      <h1 class="hero-name">Ankit<br /><em>Raj</em></h1>
+      <p class="hero-tagline">"Building pipelines that don't just move data —<br class="br-desktop" /> they make it mean something."</p>
+      <p class="hero-intro">
+        I design and build scalable data infrastructure — from real-time streaming<br class="br-desktop" />
+        pipelines to distributed systems — turning raw data into reliable,<br class="br-desktop" />
+        business-impacting solutions on GCP.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact"  class="btn btn-ghost">Contact Me</a>
+        <a href="https://www.linkedin.com/in/ankit-raj30/" target="_blank" rel="noopener" class="btn btn-icon">
+          <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a href="https://github.com/ankitraj477" target="_blank" rel="noopener" class="btn btn-icon">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll</span>
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-label">
+        <span class="label-line"></span>
+        <span>About</span>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Engineering data systems<br /><em>built to last.</em></h2>
+          <p>
+            I'm a Data Engineer with hands-on experience building <strong>scalable data pipelines</strong>
+            and backend systems using Python, PySpark, GCP, and Airflow. I enjoy solving complex
+            data problems — designing workflows that are not just functional, but resilient,
+            efficient, and built to scale.
+          </p>
+          <p>
+            What sets me apart is a breadth that goes beyond pipelines. I've built a
+            <strong>multithreaded reverse proxy server</strong> in C++ and explored GAN-based
+            deep learning — experiences that have sharpened my intuition for system design,
+            concurrency, and performance optimisation in ways that make me a stronger engineer.
+          </p>
+          <p>
+            I'm driven by continuous learning and the challenge of turning raw, noisy data
+            into systems that inform real decisions. <strong>Actively seeking Data Engineer roles</strong>
+            where I can build at scale and grow alongside a sharp, ambitious team.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">1<sup>+</sup></span>
+              <span class="stat-label">Years in Data Eng.</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">3</span>
+              <span class="stat-label">End-to-End Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-number">10<sup>+</sup></span>
+              <span class="stat-label">Technologies Mastered</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="av-card">
+            <div class="av-card-inner">
+              <div class="av-initials">AR</div>
+              <div class="av-lines">
+                <span></span><span></span><span></span>
+              </div>
+              <p class="av-role">Data Engineer · Open to Work</p>
+              <div class="av-tags">
+                <span>Pipelines</span>
+                <span>GCP</span>
+                <span>PySpark</span>
+                <span>Airflow</span>
+                <span>Streaming</span>
+                <span>Systems</span>
+              </div>
+            </div>
+            <div class="av-card-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label">
+        <span class="label-line"></span>
+        <span>Skills</span>
+      </div>
+      <h2 class="section-title">Technical <em>expertise</em></h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-code"></i>
+            <h3>Languages</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span class="skill-name">Python</span><span class="skill-bar"><span style="--w:92%"></span></span></li>
+            <li><span class="skill-name">SQL</span><span class="skill-bar"><span style="--w:90%"></span></span></li>
+            <li><span class="skill-name">C++</span><span class="skill-bar"><span style="--w:72%"></span></span></li>
+            <li><span class="skill-name">JavaScript</span><span class="skill-bar"><span style="--w:65%"></span></span></li>
+            <li><span class="skill-name">Bash / Linux</span><span class="skill-bar"><span style="--w:75%"></span></span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-diagram-project"></i>
+            <h3>Data Engineering</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span class="skill-name">Apache Spark / PySpark</span><span class="skill-bar"><span style="--w:85%"></span></span></li>
+            <li><span class="skill-name">Apache Airflow</span><span class="skill-bar"><span style="--w:84%"></span></span></li>
+            <li><span class="skill-name">Apache Kafka</span><span class="skill-bar"><span style="--w:78%"></span></span></li>
+            <li><span class="skill-name">Informatica IICS</span><span class="skill-bar"><span style="--w:72%"></span></span></li>
+            <li><span class="skill-name">Control-M</span><span class="skill-bar"><span style="--w:68%"></span></span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-brands fa-google"></i>
+            <h3>Cloud &amp; Databases</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span class="skill-name">BigQuery</span><span class="skill-bar"><span style="--w:88%"></span></span></li>
+            <li><span class="skill-name">GCS · Dataflow</span><span class="skill-bar"><span style="--w:82%"></span></span></li>
+            <li><span class="skill-name">Pub/Sub · Composer</span><span class="skill-bar"><span style="--w:78%"></span></span></li>
+            <li><span class="skill-name">Flask · REST APIs</span><span class="skill-bar"><span style="--w:83%"></span></span></li>
+            <li><span class="skill-name">Data Warehousing / ETL</span><span class="skill-bar"><span style="--w:86%"></span></span></li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-header">
+            <i class="fa-solid fa-layer-group"></i>
+            <h3>DevOps &amp; Systems</h3>
+          </div>
+          <ul class="skill-list">
+            <li><span class="skill-name">Docker</span><span class="skill-bar"><span style="--w:82%"></span></span></li>
+            <li><span class="skill-name">Kubernetes</span><span class="skill-bar"><span style="--w:70%"></span></span></li>
+            <li><span class="skill-name">Git &amp; GitHub</span><span class="skill-bar"><span style="--w:90%"></span></span></li>
+            <li><span class="skill-name">Multithreading · Networking</span><span class="skill-bar"><span style="--w:74%"></span></span></li>
+            <li><span class="skill-name">TensorFlow · GANs</span><span class="skill-bar"><span style="--w:65%"></span></span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-label">
+        <span class="label-line"></span>
+        <span>Projects</span>
+      </div>
+      <h2 class="section-title">Selected <em>work</em></h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <div class="project-body">
+            <h3>PulseGuard — Real-Time Data Pipeline</h3>
+            <p>
+              Designed and implemented an event-driven streaming data pipeline to process,
+              monitor, and route data in real time. Built automated ETL workflows with
+              Airflow orchestration, integrated Kafka for distributed event handling, and
+              deployed the full system on GCP — prioritising fault tolerance, observability,
+              and cloud-native scalability throughout.
+            </p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>PySpark</span>
+              <span>Kafka</span>
+              <span>Airflow</span>
+              <span>BigQuery</span>
+              <span>GCP</span>
+              <span>Docker</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ankitraj477/pulseguard" target="_blank" rel="noopener" class="proj-link">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-body">
+            <h3>Distributed Reverse Proxy System</h3>
+            <p>
+              Built a multithreaded reverse proxy server from scratch in C++ capable of
+              handling concurrent client requests and forwarding traffic to backend servers
+              efficiently. Simulates production-grade backend infrastructure — request
+              routing, socket communication, and traffic management — deepening expertise
+              in low-level system design, concurrency, and networking.
+            </p>
+            <div class="project-stack">
+              <span>C++</span>
+              <span>Socket Programming</span>
+              <span>Multithreading</span>
+              <span>Linux</span>
+              <span>Networking</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ankitraj477/distributed-proxy-system" target="_blank" rel="noopener" class="proj-link">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-number">03</div>
+          <div class="project-body">
+            <h3>AI Face Generator — GANs</h3>
+            <p>
+              Developed a deep learning system that synthesises photorealistic human face
+              images using Generative Adversarial Networks. Trained and iteratively
+              stabilised generator and discriminator models on image datasets, tackling
+              challenges in mode collapse and training convergence. Strengthened practical
+              understanding of computer vision, neural architectures, and AI model training.
+            </p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>GANs</span>
+              <span>Deep Learning</span>
+              <span>OpenCV</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/ankitraj477/Face_Generator_GANs" target="_blank" rel="noopener" class="proj-link">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-label">
+        <span class="label-line"></span>
+        <span>Contact</span>
+      </div>
+      <h2 class="section-title">Let's <em>connect</em></h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm actively looking for Data Engineer roles where I can build impactful
+            systems at scale. Whether you have an opportunity, a collaboration, or
+            just want to talk data — I'd love to hear from you.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:ankitraj.officialpvte@gmail.com" class="clink">
+              <i class="fa-solid fa-envelope"></i>
+              <span>ankitraj.officialpvte@gmail.com</span>
+              <i class="fa-solid fa-arrow-up-right-from-square ext-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ankit-raj30/" target="_blank" rel="noopener" class="clink">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>linkedin.com/in/ankit-raj30</span>
+              <i class="fa-solid fa-arrow-up-right-from-square ext-icon"></i>
+            </a>
+            <a href="https://github.com/ankitraj477" target="_blank" rel="noopener" class="clink">
+              <i class="fa-brands fa-github"></i>
+              <span>github.com/ankitraj477</span>
+              <i class="fa-solid fa-arrow-up-right-from-square ext-icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+              <span class="field-error" id="emailError"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about the role, project, or opportunity..."></textarea>
+            <span class="field-error" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loader" aria-hidden="true"></span>
+          </button>
+          <div class="form-feedback" id="formFeedback" role="alert"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-name">Ankit Raj</span>
+      <span class="footer-copy">&copy; <span id="year"></span> · All rights reserved</span>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/ankit-raj30/" target="_blank" rel="noopener" class="footer-li" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/ankitraj477" target="_blank" rel="noopener" class="footer-li" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="mailto:ankitraj.officialpvte@gmail.com" class="footer-li" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
